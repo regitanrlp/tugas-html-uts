@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:  #e0f7fa;
+  }
+  
+  .header ul {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #f0c4e9;
+  }
+  
+  .about {
+    padding: 100px;
+    text-align: center;
+    border-radius: 80px;
+  }
+  
+  .ticket, .about, .explore, .activity {
+    /* Bagian Ticket Wisata */
+.tickets {
+  padding: 50px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+/* Seksi Daftar Tiket */
+.ticket-section {
+  padding: 30px;
+  text-align: center;
+  background-color: #fefefe;
+  transform: translateY(-20px); /* Geser bagian ini ke atas */
+}
+
+.ticket-section h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Container untuk kotak tiket */
+.ticket-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Kotak tiket individual */
+.ticket-box {
+  background-color: #ffe6e6;
+  border: 2px solid #f5a5a5;
+  border-radius: 15px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform: translateY(-10px); /* Geser setiap kotak ke atas */
+}
+
+.ticket-box:hover {
+  transform: translateY(-15px); /* Efek hover lebih tinggi */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Judul dalam kotak */
+.ticket-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #d9534f;
+  
+}
+
+/* Harga dan teks */
+.ticket-box p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #555;
+}
+
+.ticket-box .price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #c9302c;
+}
+
+.ticket-box .hours {
+  font-size: 18px;
+  color: #5e5e5e;
+}
+
+}
+  .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-items {
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+  }
+  
+  .item {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Galeri Foto */
+.gallery {
+    padding: 20px;
+    background: #f8f9fa;
+    text-align: center;
+  }
+  
+  .gallery h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 100px;
+  }
+
+  .gallery-item img {
+    width: 80%;
+    height: 50px;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    border: 90px solid #ddd;
+  }
+  
+  .gallery-item:hover img {
+    transform: scale(1.1);
+    filter: brightness(80%);
+  }
+  
+  /* Reset dasar untuk margin dan padding */
+* {
+    margin: 100;
+    padding: 100;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color:  #e0f7fa;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+.wave-top {
+    width: 100%;
+    height: 80px;
+    background:  #cd84cb;
+    clip-path: ellipse(45% 80% at 50% 0%);
+    position: absolute;
+    top: 100;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+.wave-bottom {
+    width: 100%;
+    height: 80px;
+    background: #333;
+    clip-path: ellipse(45% 80% at 50% 100%);
+    position: absolute;
+    bottom: 0;
+}
+
+/* Styling konten utama */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #f4f4f4;
+    padding: 40px;
+    border-radius: 8px;
+}
